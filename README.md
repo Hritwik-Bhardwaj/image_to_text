@@ -58,7 +58,6 @@ If you want to restrict recognition to a sub-rectangle of the image - call SetRe
   api->SetRectangle(30, 86, 590, 100);
 
 GetComponentImages example
-
   Pix *image = pixRead("/usr/src/tesseract/testing/phototest.tif");
   tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
   api->Init(NULL, "eng");
